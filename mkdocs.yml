@@ -1,7 +1,7 @@
 # Project information
 site_name: SAP NPM Explorer
-site_url: https://github.com/gregorwolf/SAP-NPM-API-collection
-site_author: Gregor Wolf, Holger Schäfer
+site_url: https://github.com/hschaefer123/sap-npm-explorer
+site_author: Holger Schäfer
 site_dir: site
 
 # Repository
@@ -25,13 +25,17 @@ extra:
   manifest: manifest.webmanifest
   social:
     - icon: fontawesome/brands/youtube
-      link: http://www.youtube.com/stadtzh
+      link: https://www.youtube.com/user/UNIORGGruppe
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/uniorg_gruppe/
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/stadtzuerich/
+      link: https://www.facebook.com/UNIORGGroup/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/stadtzuerich
+      link: https://twitter.com/UNIORG
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/stadt-z%C3%BCrich/?originalSubdomain=ch
+      link: https://www.linkedin.com/company/uniorg-group/
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/companies/uniorggruppe   
 
 # Extensions
 markdown_extensions:

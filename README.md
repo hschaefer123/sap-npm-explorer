@@ -38,7 +38,7 @@ pip install awesome-pages
 
     ```mkdocs gh-deploy```
 
-6. Once the application has been pushed successfully, open the URl
+4. Once the application has been pushed successfully, open the URL
 
     https://udina-docs.cfapps.eu10.hana.ondemand.com/
 
