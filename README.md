@@ -1,6 +1,8 @@
 # sap-npm-explorer
 Discover and consume digital content packages with APIs from SAP
 
+[Online Explorer](https://hschaefer123.github.io/sap-npm-explorer/)
+
 Features:
 ## Requirements
 - [Python](https://www.python.org/) MkDocs supports Python versions 3.5, 3.6, 3.7, 3.8, and pypy3.

@@ -1,29 +1,28 @@
 {
-  "name": "sap-npm-api-collection",
-  "version": "1.0.0",
-  "description": "Collection of current SAP package api's",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Seeker0/SAP-NPM-API-collection.git"
-  },
-  "keywords": [
-    "SAP",
-    "NPM",
-    "API"
-  ],
-  "author": "Jeff Dederick",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Seeker0/SAP-NPM-API-collection/issues"
-  },
-  "homepage": "https://github.com/Seeker0/SAP-NPM-API-collection#readme",
-  "devDependencies": {
-
-  },
-  "dependencies": {}
+    "name": "sap-npm-explorer",
+    "version": "1.0.0",
+    "description": "Discover and consume digital content packages with APIs from SAP",
+    "main": "index.js",
+    "scripts": {
+        "build": "node index.js",
+        "serve": "mkdocs serve",
+        "deploy": "mkdocs gh-deploy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hschaefer123/sap-npm-explorer.git"
+    },
+    "keywords": [
+        "SAP",
+        "NPM",
+        "API"
+    ],
+    "author": "Holger Schäfer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hschaefer123/sap-npm-explorer/issues"
+    },
+    "homepage": "https://hschaefer123.github.io/sap-npm-explorer/",
+    "devDependencies": {},
+    "dependencies": {}
 }
