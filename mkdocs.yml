@@ -1,0 +1,48 @@
+# Project information
+site_name: SAP NPM Explorer
+site_url: https://github.com/gregorwolf/SAP-NPM-API-collection
+site_author: Gregor Wolf, Holger Schäfer
+site_dir: site
+
+# Repository
+repo_name: hschaefer123/sap-npm-explorer
+repo_url: https://github.com/hschaefer123/sap-npm-explorer
+
+# Configuration
+theme:
+  name: material
+  logo: assets/icons/udina-logo-signet.svg
+  favicon: assets/icons/favicon.ico
+  palette:
+    primary: black
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Customization
+extra:
+  manifest: manifest.webmanifest
+  social:
+    - icon: fontawesome/brands/youtube
+      link: http://www.youtube.com/stadtzh
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/stadtzuerich/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/stadtzuerich
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/stadt-z%C3%BCrich/?originalSubdomain=ch
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - codehilite
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search # necessary for search to work
+  - awesome-pages # dynamically add md to nav
+  - minify: # compress output
+      minify_html: true
